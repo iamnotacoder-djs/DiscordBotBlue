@@ -1,0 +1,26 @@
+{
+  "name": "blue_v5",
+  "version": "5.0.0",
+  "description": "https://discord.gg/YeqrTtpmaH",
+  "author": "idaspin",
+  "main": "dist/blue_v5.js",
+  "build": "tsc",
+  "start": "node dist/blue_v5.js",
+  "dependencies": {
+    "automod-filter": "^1.0.0",
+    "better-sqlite3": "^7.6.2",
+    "canvas": "^2.11.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.2",
+    "mathjs": "^11.5.0",
+    "mongoose": "^6.6.0",
+    "quick.db": "^9.0.6",
+    "rss-parser": "^3.12.0",
+    "typescript": "^4.8.3"
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/blue_v5.js"
+  }
+}
