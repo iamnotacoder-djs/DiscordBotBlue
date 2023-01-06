@@ -17,19 +17,19 @@ export default class LevelSystem {
 		'BugHunterLevel1': '`Normal Bug Hunter` <:bughunter:1011512408793174047>',
 		'BugHunterLevel2': '`Bug Buster` <:bugbuster:1011512406947663893>',
 		'PremiumEarlySupporter': '`Early Supporter` <:earlysupporter:1011512415210455070>',
-		'VerifiedDeveloper': '`Early Verified Bot Developer` <:earyverifiedbotdeveloper:1011512416623931452>',
-		'ActiveDeveloper': '`ActiveDeveloper` <:earyverifiedbotdeveloper:1011512416623931452>',
-		'CertifiedModerator': '`Discord Certified Moderators` <:discordcertifiedmoderators:1011512410382794842>',
+		'VerifiedDeveloper': '`Early Verified Bot Developer` <:verifieddeveloper:1011512416623931452>',
+		'ActiveDeveloper': '`Active Developer` <:activedeveloper:1060990856124960889>',
+		'CertifiedModerator': '`Discord Certified Moderators` <:moderator:1011512410382794842>',
 		'VerifiedBot': '`Verified Bot` <:verified:1011512423733280770>',
 		'SYSTEM': '`System` <:verified:1011512423733280770>',
 		'BotHTTPInteractions': '`Bot` <:verified:1011512423733280770>',
 		'Spammer': '`Bot` <:verified:1011512423733280770>',
 		'Quarantined': '`Bot` <:verified:1011512423733280770>',
 
-		'Partner': '`Discord Partner` <:discordpartner:1011512412173783111>',
+		'Partner': '`Discord Partner` <:partner:1011512412173783111>',
 
-		'TeamPseudoUser': '`Team User` <:discordstaff:1011512413805367346>',
-		'Staff': '`Discord Staff` <:discordstaff:1011512413805367346>'
+		'TeamPseudoUser': '`Team User` <:staff:1011512413805367346>',
+		'Staff': '`Discord Staff` <:staff:1011512413805367346>'
 	};
 
 	ProfileTypes = [ 'Старый формат', 'Компактный (аватар-слева)', 'Компактный (аватар по центру)' ];
