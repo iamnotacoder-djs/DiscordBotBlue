@@ -199,8 +199,8 @@ export default class SelfSacrifice extends BaseCommand {
                     dbStats.timouts++;
                     dbStats.members.push(interaction.user.id);
                     client.db.set<SelfSacrificeStats>(`selfsacrifice_stats`, dbStats);
-                    interaction.reply({
-                        content: "Роль успешно выдана!",
+		    interaction.reply({
+                        content: "Таймаут успешно выдан!",
                         ephemeral: true
                     });
                     client.logger.send(`[COMMANDS|${this.name.toUpperCase()}|${interaction.user.id}|BUTTON|${interaction.customId.toUpperCase()}] ${interaction.user.username} ${this.usage}`);
