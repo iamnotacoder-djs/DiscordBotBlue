@@ -808,7 +808,7 @@ export default class LevelSystem {
 				},
 				{
 					name: `> Присоединился`,
-					value: `<t:${~~(member.joinedTimestamp ?? Date.now() / 1000)}>`,
+					value: `<t:${~~((member.joinedTimestamp ?? Date.now()) / 1000)}>`,
 					inline: true
 				},
 				{
